@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>박스 그림자 효과</title>
+  <style>
+    div {
+      width: 250px;
+      height: 100px;
+      background-color: lightcoral;
+      border-radius: 10px;
+      display: inline-block;
+      margin: 20px;
+    }
+    .box1 {
+      box-shadow: 5px 5px 10px black;
+    }
+    .box2 {
+      box-shadow: 0 1px 3px black;
+    }
+    .box3 {
+      box-shadow: 0 0 15px black;
+    }
+    .box4 {
+      box-shadow: 5px 5px 0 black;
+    }
+    .box5 {
+      box-shadow: inset 5px 3px 4px black;
+    }
+    .box6 {
+      box-shadow: inset 0 0 20px black;
+    }
+    .box7 {
+      box-shadow: inset 1px 1px 150px black;
+    }
+    .box8 {
+      box-shadow: inset 0 0 0 10px rgb(245, 151, 151), inset 0 0 0 14px white;
+    }
+    .box9 {
+      box-shadow: 5px 5px 0 #fff, 5px 10px 0 black;
+    }
+    .box10 {
+      background-color: #fff;
+      border: 1px solid gray;
+      box-shadow: 10px 10px green, 20px 20px rgb(15, 160, 15), 30px 30px rgb(70, 206, 70)
+    }
+  </style>
+</head>
+<body>
+  <div class="box1"></div>
+  <div class="box2"></div>
+  <div class="box3"></div>
+  <div class="box4"></div>
+  <div class="box5"></div>
+  <div class="box6"></div>
+  <div class="box7"></div>
+  <div class="box8"></div>
+  <div class="box9"></div>
+  <div class="box10"></div>
+  
+</body>
+</html>
