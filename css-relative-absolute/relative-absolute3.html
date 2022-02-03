@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>밖으로 빠진 모양</title>
+  <style>
+    body {
+      margin: 0;
+    }
+    .parent {
+      margin: 100px;
+      width: 400px;
+      height: 400px;
+      background-color: aquamarine;
+      position: relative;
+    }
+    .child {
+      width: 100px;
+      height: 100px;
+      background-color: bisque;
+      position: absolute;
+      bottom: -50px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="child"></div>
+  </div>
+</body>
+</html>
