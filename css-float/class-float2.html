@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>float: left 두번째 예제</title>
+  <style>
+    .container {
+      border: 2px solid blue;
+      width: 1200px;
+      margin: auto;
+    }
+    header {
+      border: 2px solid red;
+      height: 150px;
+      line-height: 150px;
+      text-align: center;
+    }
+    .inner section {
+      border: 2px solid pink;
+      width: 400px;
+      height: 400px;
+      float: left;
+      box-sizing: border-box;
+    }
+    footer {
+      border: 5px solid orange;
+      height: 100px;
+      clear: left;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>Header</header>
+    <div class="inner">
+      <section>Section1</section>
+      <section>Section2</section>
+      <section>Section3</section>
+    </div>
+    <footer>footer</footer>
+  </div>
+  
+</body>
+</html>
