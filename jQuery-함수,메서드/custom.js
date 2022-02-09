@@ -1,6 +1,9 @@
-$('.fadeIn-btn').click(function(){
-    $('div').fadeIn();
+$('.show-btn').click(function(){
+    $('.container div').fadeIn(200)
 })
-$('.fadeOut-btn').click(function(){
-    $('div').fadeOut()
+$('.hide-btn').click(function(){
+    $('.container div').fadeOut(2000)
+})
+$('.toggle-btn').click(function(){
+    $('.container div').fadeToggle(1500)
 })
