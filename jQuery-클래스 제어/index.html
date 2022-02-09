@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>제이쿼리 클래스제어</title>
+  <style>
+    .container {
+      width: 300px;
+    }
+    a {
+      background-color: #ddd;
+      color: #000;
+      text-align: center;
+      text-decoration: none;
+      padding: 5px;
+      width: 70px;
+      display: inline-block;
+      border-radius: 5px;
+    }
+    .container div {
+      background-color: yellowgreen;
+      width: 250px;
+      height: 300px;
+      margin-top: 10px;
+      color: #fff;
+      text-align: center;
+      line-height: 300px;
+      /* display: none; */
+    }
+    .container div.active {
+      background-color: red;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="add-btn" href="#none">넣기</a>
+    <a class="remove-btn" href="#none">빼기</a>
+    <a class="toggle-btn" href="#none">토글</a>
+    <div>box</div>
+  </div>
+  
+  <script src="/script/jquery-1.12.4.js"></script>
+  <script src="/script/custom.js"></script>
+</body>
+</html>
