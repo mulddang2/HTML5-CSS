@@ -1,0 +1,27 @@
+/* section {
+  width: 600px;
+  border: 5px solid black;
+  overflow: hidden;
+}
+section article {
+  background-color: gold;
+  width: 200px;
+  height: 100px;
+  float: left;
+  border: 1px solid red;
+  box-sizing: border-box;
+} */
+
+
+section {
+  border: 5px solid black;
+  padding: 5px;
+  text-align: center;
+}
+section article {
+  background-color: gold;
+  width: 300px;
+  height: 100px;
+  border: 1px solid red;
+  display: inline-block;
+}

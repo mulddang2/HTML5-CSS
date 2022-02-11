@@ -1,0 +1,25 @@
+.parent {
+  border: 5px solid red;
+  width: 600px;
+}
+.top {
+  background-color: purple;
+  height: 50px;
+}
+.left {
+  background-color: gray;
+  height: 100px;  
+  width: 200px;
+  float: left;
+}
+.right {
+  background-color: orange;
+  height: 100px;
+  width: 400px;
+  float: right;
+}
+.clear {
+  background-color: purple;
+  height: 50px;
+  clear: both
+}
