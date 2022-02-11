@@ -4,38 +4,52 @@
   <meta charset="UTF-8">
   <title>제이쿼리 메서드</title>
   <style>
-    .container {
-      width: 300px;
+    .menu {
+      padding: 0;
+      list-style: none;
+      width: 200px;
+      /* border: 1px solid red; */
     }
-    a {
-      background-color: #ddd;
-      color: #000;
-      text-decoration: none;
+    .menu li > a {
+      background-color: #000;
+      color: #fff;
+      display: block;
+      text-align: center;
       padding: 5px;
-      width: 70px;
-      display: inline-block;
-      text-align: center;
-      border-radius: 5px;
+      border: 1px solid #ddd;
     }
-    .container div {
-      background-color: skyblue;
-      width: 250px;
-      height: 300px;
-      margin-top: 10px;
-      text-align: center;
-      line-height: 300px;
+    .sub-menu {
+      border: 1px solid #000;
       display: none;
+    }
+    .sub-menu a{
+      display: block;
+      text-align: center;
+      padding: 5px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <a class="show-btn" href="#none">보이기</a>
-    <a class="hide-btn"href="#none">감추기</a>
-    <a class="toggle-btn" href="#none">토글</a>
-    <div>Box</div>
-  </div>
-
+  <ul class="menu">
+    <li>
+      <a href="#none">MENU-1</a>
+      <div class="sub-menu">
+        <a href="#none">SUB-MENU-1</a>
+        <a href="#none">SUB-MENU-2</a>
+        <a href="#none">SUB-MENU-3</a>
+        <a href="#none">SUB-MENU-4</a>
+      </div>
+    </li>
+    <li>
+      <a href="#none">MENU-2</a>
+      <div class="sub-menu">
+        <a href="#none">SUB-MENU-1</a>
+        <a href="#none">SUB-MENU-2</a>
+        <a href="#none">SUB-MENU-3</a>
+        <a href="#none">SUB-MENU-4</a>
+      </div>
+    </li>
+  </ul>
   <script src="/jquery-1.12.4.js"></script>
   <script src="/custom.js"></script>
 </body>
