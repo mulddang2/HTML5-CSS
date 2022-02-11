@@ -1,0 +1,48 @@
+.container {
+  border: 1px solid red;
+  width: 1200px;
+  margin: auto;
+}
+header {
+  background-color: skyblue;
+  overflow: hidden;
+}
+header article {
+  background-color: gray;
+  width: 300px;
+  height: 100px;
+}
+.logo {
+  float: left;
+}
+.navi {
+  float: right;
+}
+
+.box1 {
+  background-color: yellowgreen;
+  height: 300px;
+}
+.box2 {
+  background-color: greenyellow;
+  overflow: hidden;
+}
+.box2 article{
+  /* background-color: grey; */
+  width: 33.3333%;
+  height: 300px;
+  float: left;
+}
+.sub1 {
+  background-color: darkgray;
+}
+.sub2 {
+  background-color: goldenrod;
+}
+.sub3 {
+  background-color: aquamarine;
+}
+footer {
+  background-color: blanchedalmond;
+  height: 100px;
+}
