@@ -1,0 +1,16 @@
+.box {
+  border: 1px solid red;
+  width: 400px;
+  height: 400px;
+}
+.box > div {
+  border: 1px solid blue;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+.box > div div {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+}
