@@ -1,0 +1,23 @@
+.box {
+  border: 5px solid #000;
+  text-align: center;
+}
+.box div {
+  border: 5px solid #000;
+  margin:  10px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+.box div:nth-of-type(1) {
+  background-color: aqua;
+}
+.box div:nth-of-type(2) {
+  background-color: rgba(255, 0, 0, 0.61);
+}
+.box div:nth-of-type(3) {
+  background-color: rgba(0, 0, 255, 0.774);
+}
+.box div:nth-of-type(4) {
+  background-color: gold;  
+}
