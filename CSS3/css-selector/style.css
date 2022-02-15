@@ -1,0 +1,90 @@
+/* h1 {
+  color: red;
+}
+.blue-text {
+  color: blue;
+}
+ul li {
+  color:pink;
+}
+#green-text {
+  color: green;
+}
+.large-text {
+  font-size: 2em;
+} */
+
+/* 결합선택자 */
+/* 스페이스() : 자손선택자(하위선택자)
+> : 바로밑 선택자, 자식선택자, child-selector, 
+콤마(,) : 연결선택자(그룹선택자)
+*/
+/* .start div p,
+.end{
+  color: red;
+  font-size: 2em;
+}
+.end {
+  text-transform: uppercase;
+} */
+
+/* 클래스 중첩해서 사용하기 (CSS: Cascading Style Sheets) */
+
+/* p {
+  border: 1px solid #000;
+}
+.text-center {
+  text-align: center;
+}
+.text-large {
+  font-size: 2em;
+}
+.text-blue {
+  color: blue;
+} */
+
+/* 전체선택자
+* {
+  font-family: 'Syne Tactile', cursive;
+  box-sizing: border-box;
+  outline: none;
+}
+body {}
+
+.frame {
+  width: 300px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.frame div {
+  border: 5px solid red;
+  float: left;
+  height: 100px;
+  width: 100px;
+} */
+
+태그와 함께 사용하는 선택자
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  font-family: 'Syne Tactile', cursive;
+}
+
+/*태그.클래스네임 {...} */
+
+.container {
+  width: 1200px;
+}
+header {
+  height: 100px;
+}
+
+/* Section : About */
+.about {
+  border: 5px solid blue;
+}
+
+D:\lsz\ux ui\coding\css\css-selector\index.html
+
