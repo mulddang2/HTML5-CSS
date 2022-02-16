@@ -1,0 +1,12 @@
+body {
+  margin: 50px;
+}
+div img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  transform: translateY(-1px);
+}
+div span {
+  font-size: 20px;
+}
