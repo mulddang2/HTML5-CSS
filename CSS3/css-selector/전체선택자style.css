@@ -1,0 +1,20 @@
+* {
+  font-family: 'Syne Tactile', cursive;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {}
+
+.frame {
+  /* border: 1px solid #000; */
+  width: 300px;
+  overflow: hidden;
+}
+.frame div {
+  border: 5px solid red;
+  float: left;
+  height: 100px;
+  width: 100px;
+  
+}
