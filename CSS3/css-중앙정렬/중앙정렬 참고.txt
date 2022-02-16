@@ -1,0 +1,11 @@
+
+✔ 수평 중앙 정렬할 때 블록요소 vs 인라인(인라인블록)
+
+블록요소는 자기 자신에 margin: auto;
+인라인(인라인블록)는 부모요소 또는 상위요소에 text-align: center;
+float로 배치하는 것은 블록요소, 인라인, 인라인 블록 모두 해당됨.
+
+✔ 자기 자신과 인접해 있는 요소와 수직 중앙을 맞출 경우
+
+vertical-align: 값; transform: translateY(값);
+✔
