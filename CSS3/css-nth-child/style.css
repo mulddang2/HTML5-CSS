@@ -1,0 +1,19 @@
+.box div {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  float: left;
+  margin: 10px;
+}
+.box div:first-child {
+  background-color: bisque;
+}
+.box div:last-child {
+  background-color: aquamarine;
+}
+.box div:nth-child(2) {
+  background-color: gold;
+}
+.box div:nth-child(3) {
+  background-color: greenyellow;
+}
