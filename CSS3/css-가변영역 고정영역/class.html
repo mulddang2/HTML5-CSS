@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>가변영역 고정영역 함께 사용하는 레이아웃</title>
+  <style>
+    .wrapper {
+      /* display: flex; */
+      /* display: table; */
+      /* width: 100%; */
+    }
+    .main,
+    .side {
+      font-size: 30px;
+      text-align: center;
+      height: 300px;
+      color: black;
+      line-height: 300px;
+      /* display: table-cell; */
+      float: left;
+    }
+    .main {
+      background-color: aquamarine;
+      width: calc(100% - 300px);
+      /* flex: 1; */
+      /* 벤더프리픽스 */
+      /* 버전 낮은 부분에서 사용할 수 있도록 js 넣는 경우 안넣어도 됨 */
+      /* width: -webkit-calc(100% - 300px); 구글, 사파리
+      width: -moz-calc(100% - 300px); 파이어폭스
+      width: -o-calc(100% - 300px); 오페라
+      width: -ms-calc(100% - 300px); 인터넷익스플로러 */
+    }
+    .side {
+      background-color: beige;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="main">Main</div>
+    <div class="side">Side</div>
+  </div>
+</body>
+</html>
