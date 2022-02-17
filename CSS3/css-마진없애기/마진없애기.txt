@@ -1,0 +1,6 @@
+inline-block에 생기는 마진 없애기
+● negative margin
+● 예) margin: 0(상하) -3px(좌우); 숫자 한개 쓸 경우 상하좌우 
+
+인접한 인라인 라인 요소끼리 수직 중앙 맞추기
+● vertical-align: middle 사용
