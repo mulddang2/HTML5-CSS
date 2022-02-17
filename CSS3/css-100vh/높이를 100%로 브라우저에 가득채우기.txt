@@ -1,0 +1,11 @@
+● 부모요소인 html, body를 기준으로 100% 만들기
+● 부모요소 기준 관계 없이 사용 : 100% -> 100vh
+
+vh(viewport height) 단위 : 사용자가 보는 화면 크기
+
+방법 1)
+html, body {height: 100%;}
+.container {height: 100%;}
+
+방법 2)
+.container {height: 100vh;}

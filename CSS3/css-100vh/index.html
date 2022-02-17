@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>div 또는 background color 높이를 100%로 브라우저에 가득채우기</title>
+  <style>
+    body {
+      margin: 0;
+    }
+    /* html, body {
+      height: 100%;
+    }
+    body {
+      margin: 0;
+    }
+    .container{
+      background-color: antiquewhite;
+      height: 100%;
+    } */
+
+    .container {
+      /* background-color: antiquewhite; */
+      background: linear-gradient(to right top, dodgerblue, gold);
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <div class="container"></div>
+</body>
+</html>
