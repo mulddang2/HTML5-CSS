@@ -1,0 +1,3 @@
+임시 이미지 사용
+
+http://placehold.it/가로x세로

@@ -1,0 +1,6 @@
+oveflow: hidden
+자식요소에 float 속성이 있으면
+부모요소가 높이값을 잃습니다.
+
+높이 값을 찾아주는 것이
+overflow: hidden; 입니다.
