@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>before, after 두번째예제</title>
+  <style>
+    ul {
+      list-style: none;
+    }
+    ul li:after {
+      content: '주문불가';
+      color: red;
+      font-size: 12px;
+      margin-left: 5px;
+    }
+    ul li:before {
+      content: '#';
+      color: purple;
+      margin-right: 3px;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li>마요</li>
+    <li>카레</li>
+    <li>철판볶음밥</li>
+    <li>프리미엄 찌개</li>
+    <li>덮밥</li>
+    <li>비빔밥</li>
+  </ul>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>세번째예제</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+    @import url('https://use.fontawesome.com/05a7a6b1cf.css');
+    body {
+      font-family: 'Noto Sans KR';
+    }
+    .breadcrumb a{
+      color: #000;
+      text-decoration: none;
+    }
+    .breadcrumb a:after {
+      content: '\f105';
+      font-family: 'fontawesome';
+      margin-left: 5px;
+    }
+    .breadcrumb a:last-child:after {
+      content: ''
+    }
+  </style>
+</head>
+<body>
+  <div class="breadcrumb">
+    <a href="">홈</a>
+    <a href="">전체메뉴</a>
+    <a href="">사각도시락</a>
+    <a href="">모둠시리즈</a>
+  </div>
+</body>
+</html>

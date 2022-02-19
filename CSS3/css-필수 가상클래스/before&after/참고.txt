@@ -1,0 +1,2 @@
+가상클래스 before after
+폼 엘리먼트는 before after를 가질 수 없다. form, input, button 

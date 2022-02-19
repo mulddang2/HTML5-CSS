@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>가상클래스 before, after</title>
+  <style>
+    ul {
+      list-style: decimal; 
+    }
+    ul li.new:after {
+      content: 'new';
+      background-color: bisque;
+      color: purple;
+      border-radius: 3px;
+      font-size: 13px;
+      padding: 0 5px;
+      margin-left: 5px;
+    }
+    ul li.hot:before {
+      content: 'hot';
+      background-color: rebeccapurple;
+      color: hotpink;
+      border-radius: 3px;
+      font-size: 13px;
+      padding: 0 5px;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li class="new">빅치킨마요 - 3,500원</li>
+    <li>돈치마요 - 3,500원</li>
+    <li>치킨 샐러드마요 - 3,400원</li>
+    <li class="hot">치킨마요 - 2,900원</li>
+  </ul>
+</body>
+</html>
