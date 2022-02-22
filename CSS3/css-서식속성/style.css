@@ -1,0 +1,6 @@
+.menu {
+  list-style: none;
+}
+.menu li:before {
+  content: '💌'
+}
