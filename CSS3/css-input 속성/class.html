@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>속성 선택자(input)</title>
+  <style>
+    .form-login {
+      border: 1px solid black;
+      width: 400px;
+      padding: 30px;
+      box-sizing: border-box;
+    }
+    input[type=text], 
+    input[type=password] {
+      width: 100%;
+      padding: 8px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid lightgray;
+      box-sizing: border-box;
+    }
+    input[type=checkbox] {
+    }
+    input[type=submit] {
+      width: 100%;
+      background-color: palevioletred;
+      color: #fff;
+      padding: 7px;
+      margin-top: 15px;
+      border-radius: 5px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-login">
+    <input type="text">
+    <input type="password">
+    <input type="checkbox"> 로그인 상태 유지하기
+    <input type="submit" value="로그인"> 
+  </div>
+</body>
+</html>

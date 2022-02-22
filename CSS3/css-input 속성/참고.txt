@@ -1,0 +1,15 @@
+속성선택자!!
+
+🧡기본개념
+속성선택자(Attribute Selector) : 특정 속성(attribute)을 요소(element)가 가지고 있는 특정 속성에 따라 요소(element)를 개별적으로 선택
+
+🧡기본형태
+태그[속성=값]
+input[type=text]
+
+tag= input
+arttribute=type (속성)
+value=text
+<input type="text">
+<input type="password">
+<input type="checkbox">
