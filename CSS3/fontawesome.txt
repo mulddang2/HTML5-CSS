@@ -1,0 +1,2 @@
+font awesome CDN :
+<link rel="stylesheet" href="https://use.fontawesome.com/05a7a6b1cf.css">
