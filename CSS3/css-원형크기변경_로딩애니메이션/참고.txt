@@ -1,0 +1,11 @@
+@keyframes
+: css 애니메이션에서 구간을 정하고 각 구간별로 어떤 스타일을 적용시킬지 정하는 문법
+
+1) keyframes 적용을 위해 필요한 3가지 조건
+ㅁanimation-name: 사용자가 직접 @keyframes에 적용할 변수 이름
+ㅁfrom-to : 시작 부분과 끝날 부분 [0~100%]
+ㅁcss 스타일: 각 구간에 적용시킬 스타일
+
+
+2) transform: scale() -X또는 Y축으로 확대/축소
+3) linear :  일정한 속도로 진행
