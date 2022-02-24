@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>DropDown Navigation</title>
+  <style>
+    /* Google Web Fonts CDN */
+    @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+    body {
+      font-family: 'Raleway', sans-serif;
+      color: #222;
+      line-height: 1.5em;  
+    }
+    a {
+      color: #222;
+      text-decoration: none;
+    }
+    .dropdown {
+      display: inline-block;
+      width: 200px;
+    }
+    .dropdown-btn {
+      width: inherit;
+      padding: 10px;
+      font-size: 18px;
+      background-color: peachpuff;
+      color: #fff;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+    .dropdown-submenu {
+      display: none;
+      border: 1px solid #000;
+      width: inherit;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
+    }
+    .dropdown-submenu a {
+      display: block;
+      padding: 7px;
+      text-align: center;
+    }
+    .dropdown-submenu a:hover {
+      background-color: #eee;
+    }
+    .dropdown:hover .dropdown-submenu {
+      display: block;
+    }
+</style>
+</head>
+<body>
+  <div class="dropdown">
+    <button class="dropdown-btn">Real Estate Type</button>
+    <div class="dropdown-submenu">
+      <a href="#none">All</a>
+      <a href="#none">One room</a>
+      <a href="#none">1.5 rooms</a>
+      <a href="#none">Two Room</a>
+      <a href="#none">Three Room</a>
+      <a href="#none">Officetel</a>
+      <a href="#none">Apartment</a>
+    </div>
+  </div>
+</body>
+</html>
